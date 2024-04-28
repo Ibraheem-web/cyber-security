@@ -13,19 +13,18 @@ banner:
     enable: true
     slides:
       - image: "/images/partner-1.png"
-        outbound: "/"
       - image: "/images/partner-2.png"
-        outbound: "/"
+        outbound: "https://registry.blockmarktech.com/certificates/9868efb5-d1d5-4cab-a7de-075ddd8bfb65/"
       - image: "/images/partner-3.png"
-        outbound: "/"
+        outbound: "https://registry.blockmarktech.com/certificates/c9d42e3c-5665-4338-af7f-b52a4d833800/"
       - image: "/images/partner-4.png"
-        outbound: "/"
+        outbound: "https://registry.blockmarktech.com/certificates/ef99590d-25ec-4eed-bb2e-b9ca30e592ce/"
       - image: "/images/partner-5.png"
-        outbound: "/"
+        outbound: "https://registry.blockmarktech.com/certificates/455ecc3a-1484-476f-86e8-29f9f4b4abde/"
       - image: "/images/partner-6.png"
-        outbound: "/"
+        outbound: "https://registry.blockmarktech.com/certificates/f8c135d5-f9fb-4c91-bcdb-314f777fdc27/"
       - image: "/images/partner-7.png"
-        outbound: "/"
+        outbound: "https://registry.blockmarktech.com/certificates/145cec6f-7838-45cf-bd14-5f56fd9add55/"
 
 # Features
 features:

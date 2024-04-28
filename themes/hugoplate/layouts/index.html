@@ -46,7 +46,11 @@
             <div class="flex flex-wrap justify-evenly w-full gap-5 lg:flex-nowrap">
               {{ range .slides }}
                 <div class="w-40 h-40 flex justify-center items-center">
+                  {{ if .outbound }}
                   <a href="{{ .outbound }}">{{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}</a>
+                  {{ else }}
+                  {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+                  {{ end }}
                 </div>
               {{ end }}
             </div>

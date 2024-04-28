@@ -14,23 +14,23 @@ Running a small business is tough. You’re constantly juggling hats, making dec
 
 We appreciate and give credit to SoureHut for their full transparency both whilst this was in progress, and the post-mortem which we base this post on. This is something a lot of companies can learn from.
 
-### What Happened at SourceHut?
+**What Happened at SourceHut?**
 
 SourceHut, a software development platform, experienced a major outage in January 2024. The culprit? A distributed denial-of-service (DDoS) attack, a malicious attempt to overwhelm their systems with traffic and take them offline. This attack exposed a critical vulnerability: SourceHut’s reliance on a single datacentre. (To be fair to SourceHut, they were in the process of building redundancy into their infrastructure).
 
-### The Impact of the Outage
+**The Impact of the Outage**
 
 The SourceHut outage had a significant impact on their business. Developers were unable to access their code, customers were frustrated, and the company’s reputation took a hit. While SourceHut eventually restored service and implemented DDoS protection measures, the outage served as a stark reminder of the potential consequences, even when you have plans and mitigations in place.
 
-### The Lesson for Small Businesses
+**The Lesson for Small Businesses**
 
 The SourceHut outage should serve as a wake-up call for small businesses everywhere. No one is immune to outages, whether it’s a cyberattack, a natural disaster, or even a simple power outage. That’s why it’s crucial to have a plan in place. How would your DR plan hold up if you had no access at all to your resources if you were blocked by a tier one ISP?
 
-### Tabletop Your Outage Response
+**Tabletop Your Outage Response**
 
 One of the best ways to prepare for an outage is to conduct tabletop exercises. These simulations allow you to walk through different outage scenarios and identify potential weak spots in your systems and processes. By tabletoping different scenarios, you can develop a clear and coordinated response plan that will help you minimize downtime and get your business back up and running as quickly as possible.
 
-### Don’t Go It Alone
+**Don’t Go It Alone**
 
 Outage preparedness can be a daunting task, especially for small businesses with limited resources. If you need help developing an outage response plan, don’t hesitate to seek professional assistance. Be Secure Cyber can help you assess your risks, identify vulnerabilities, and develop a plan that’s tailored to your specific needs. An external resource looking in is often able to pinpoint something your internal team has missed.
 

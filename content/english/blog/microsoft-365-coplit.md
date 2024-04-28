@@ -6,13 +6,13 @@ date: 2024-01-23T05:00:00Z
 image: "/images/blog/microsoft-365-coplit.webp"
 categories: []
 author: "Sam Wilson"
-tags: ["technology", "tailwind"]
+tags: []
 draft: false
 ---
 
 With Microsoft 365 Copilot’s recent wider availability, excitement crackles. However, alongside potential benefits, a new layer of complexity drapes over existing data privacy concerns. While businesses with airtight data governance within M365 might breathe easy, the reality for most paints a different picture.
 
-### How Copilot Works (and Why You Should Care):
+**How Copilot Works (and Why You Should Care)**:
 
 At its core, Copilot indexes data across M365 sources like email, Teams, and SharePoint. When users pose questions, the model respects existing data governance policies. For example, summarizing emails in your inbox is fine, but not accessing a restricted SharePoint folder.
 
@@ -26,11 +26,11 @@ File types currently supported by Microsoft 365 Copilot:
 
 ![alt text](/images/blog/microsoft-coplit-image-2.webp)
 
-### The Unlearning Dilemma: Your Data, Inked in AI
+**The Unlearning Dilemma: Your Data, Inked in AI**
 
 One unsettling aspect of LLM AI models like Copilot is their “unlearning” difficulty. Ingested data isn’t stored in removable files; it becomes part of the model itself. Reverting it to its initial state, the only way to remove data, is costly and impractical, offering no guarantee of an identical “clean” model.
 
-### Taking Control: What You Can Do
+**Taking Control: What You Can Do**
 
 Despite the AI hype, fundamental principles still apply. Frameworks like [IASME Cyber Assurance](/cyber-assurance/) can help small businesses map and define data storage, access, and sharing, forming the basis for robust data governance policies and technical controls.
 

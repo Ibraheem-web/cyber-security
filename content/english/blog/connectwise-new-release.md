@@ -21,13 +21,13 @@ Although there are no reports so far, ScreenConnect (and remote control products
 
 This is a developing story as these often are, don’t delay, get patching.
 
-Connectwise link with patching instructions connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8
+Connectwise link with patching instructions [connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8](https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8)
 
 Update 23/02/24 –
 
 Huntress have confirmed the anecdotal reports of further exploitation. As expected, multiple methods of persistence have been deployed to the endpoints after initial exploitation of the ScreenConnect tenant. This has been big, just how big we are yet to see.
 
-SlashAndGrab: ScreenConnect Post-Exploitation in the Wild (CVE-2024-1709 & CVE-2024-1708) (huntress.com)
+[SlashAndGrab: ScreenConnect Post-Exploitation in the Wild (CVE-2024-1709 & CVE-2024-1708) (huntress.com)](https://www.huntress.com/blog/slashandgrab-screen-connect-post-exploitation-in-the-wild-cve-2024-1709-cve-2024-1708)
 
 Update 21/02/24 –
 
@@ -35,6 +35,6 @@ CWE-288 Authentication bypass is worryingly trivial. The setup wizard was availa
 
 Huntress have some further information on where to look for possible compromise and general excellent content on this as always:
 
-A Catastrophe For Control: Understanding the ScreenConnect Authentication Bypass | Huntress
+[A Catastrophe For Control: Understanding the ScreenConnect Authentication Bypass | Huntress](https://www.huntress.com/blog/a-catastrophe-for-control-understanding-the-screenconnect-authentication-bypass)
 
-BlogDetection Guidance for ConnectWise CWE-288 (huntress.com)
+[BlogDetection Guidance for ConnectWise CWE-288 (huntress.com)](https://www.huntress.com/blog/detection-guidance-for-connectwise-cwe-288-2)
