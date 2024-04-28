@@ -35,7 +35,7 @@ features:
     button:
       enable: true
       label: "Read More"
-      link: "/"
+      link: "/about/"
 
   - title: "Tailored Solutions"
     image: "/images/solutions-img.png"
@@ -52,7 +52,7 @@ features:
       - "NGFW"
       - "vCISO"
     button:
-      enable: true
+      enable: false
       label: "Read More"
       link: "/"
 ---
