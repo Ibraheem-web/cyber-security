@@ -54,8 +54,4 @@ services:
     content: "Prevent cyber threats and focus on your business growth with our expert team"
     link: "/managed-security-service/"
     label: "Read More"
-
-# don't create a separate page
-_build:
-  render: "never"
 ---

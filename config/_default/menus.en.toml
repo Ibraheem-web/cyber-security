@@ -7,7 +7,7 @@ pageRef = "/"
 weight = 1
 
 [[main]]
-name = "Services"
+name = "Our Services"
 pageRef = "/services/"
 weight = 2
 
@@ -35,16 +35,21 @@ pageRef = "/"
 weight = 1
 
 [[footer]]
+name = "Our Services"
+pageRef = "/services/"
+weight = 2
+
+[[footer]]
 name = "About Us"
 pageRef = "/about/"
-weight = 2
+weight = 3
 
 [[footer]]
 name = "Contact Us"
 pageRef = "/contact/"
-weight = 3
+weight = 4
 
 [[footer]]
 name = "Blog"
 pageRef ="/blog/"
-weight = 4
+weight = 5

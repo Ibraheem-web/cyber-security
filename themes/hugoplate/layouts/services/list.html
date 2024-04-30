@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ if .Params.enable }}
-  <section class="section">
+  <section class="section pt-2">
     <div class="container">
       <div class="row">
         <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
@@ -11,25 +11,17 @@
             {{ .Params.description | markdownify }}
           </p>
         </div>
-        <div class="col-12">
-          <div class="swiper testimonial-slider">
-            <div class="swiper-wrapper">
-              {{ range .Params.services }}
-                <div class="swiper-slide">
-                  <div
-                    class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-                    <div class="text-center space-y-5">
-                      <h1 class="text-h4 lg:text-h5">{{ .name | markdownify }}</h1>
-                        <p>{{ .content | markdownify }}</p>
-                        <a href="{{ site.BaseURL }}{{ .link }}" class="btn btn-outline-primary btn-sm">{{ .label }}</a>
-                    </div>
-                  </div>
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {{ range .Params.services }}
+              <div
+                class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+                <div class="text-center space-y-5">
+                  <h1 class="text-h4 lg:text-h5">{{ .name | markdownify }}</h1>
+                    <p>{{ .content | markdownify }}</p>
+                    <a href="{{ site.BaseURL }}{{ .link }}" class="btn btn-outline-primary btn-sm">{{ .label }}</a>
                 </div>
-              {{ end }}
-            </div>
-            <div
-              class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
-          </div>
+              </div>
+          {{ end }}
         </div>
       </div>
     </div>
